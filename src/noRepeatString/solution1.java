@@ -3,7 +3,7 @@ package noRepeatString;
 import java.util.HashSet;
 import java.util.Set;
 
-public class solution1 {
+public class solution1 {    //暴力解法
     public static void main(String[] args) {
     String s="abcabcbb";
     int x=lengthOfLongesSubstring(s);
