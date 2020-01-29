@@ -1,5 +1,5 @@
 package LongestEchoSubstring;
-
+    //最长回文子串
 public class solution1 {    //暴力匹配
     public static void main(String[] args) {
         String x="aaffaba";
