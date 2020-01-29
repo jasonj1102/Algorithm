@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0258136-4c77-48f0-a243-6cebff867d67" name="Default Changelist" comment="“修改类的名称”">
-      <change afterPath="$PROJECT_DIR$/src/StringToInteger/solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringToInteger/solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LongestEchoSubstring/solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/noRepeatString/solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/noRepeatString/solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/noRepeatString/solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/noRepeatString/solution2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,6 +27,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LongestEchoSubstring/solution2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringToInteger/solution1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -39,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StringToInteger/solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="567">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -77,10 +91,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/noRepeatString/solution1.java" />
         <option value="$PROJECT_DIR$/src/noRepeatString/solution3.java" />
-        <option value="$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java" />
         <option value="$PROJECT_DIR$/src/noRepeatString/solution2.java" />
         <option value="$PROJECT_DIR$/src/StringToInteger/solution1.java" />
         <option value="$PROJECT_DIR$/src/StringToInteger/solution2.java" />
+        <option value="$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java" />
+        <option value="$PROJECT_DIR$/src/LongestEchoSubstring/solution2.java" />
       </list>
     </option>
   </component>
@@ -146,7 +161,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/android_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580280970134" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580289360742" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -164,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.solution2 (1)">
+  <component name="RunManager" selected="Application.solution2 (2)">
     <configuration name="solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestEchoSubstring.solution1" />
       <module name="algorithm" />
@@ -204,6 +219,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="solution2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestEchoSubstring.solution2" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LongestEchoSubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="noRepeatString.solution2" />
       <module name="algorithm" />
@@ -217,26 +245,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="noRepeatString.solution3" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="noRepeatString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.solution2 (2)" />
+        <item itemvalue="Application.solution1 (1)" />
         <item itemvalue="Application.solution2 (1)" />
         <item itemvalue="Application.solution1 (2)" />
         <item itemvalue="Application.solution2" />
-        <item itemvalue="Application.solution1 (1)" />
-        <item itemvalue="Application.solution3" />
       </list>
     </recent_temporary>
   </component>
@@ -254,15 +269,16 @@
       <workItem from="1579697643632" duration="14000" />
       <workItem from="1580022662172" duration="3326000" />
       <workItem from="1580192378803" duration="599000" />
-      <workItem from="1580264925378" duration="5365000" />
+      <workItem from="1580264925378" duration="11865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11165000" />
+    <option name="totallyTimeSpent" value="17665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -273,7 +289,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33970588" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6397059" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,13 +320,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/demo1.java" />
-    <entry file="file://$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/noRepeatString/solution1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="701">
@@ -363,8 +372,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StringToInteger/solution2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="567">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestEchoSubstring/solution1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestEchoSubstring/solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
